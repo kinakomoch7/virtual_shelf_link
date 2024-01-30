@@ -10,9 +10,7 @@ export const HomeIntro = () => {
   ];
 
   const HomeImgStyles = {
-    width: "60%",
-    height: "60%",
-    style: { marginRight: "30px" },
+    style: { marginRight: "40px" },
   };
 
   const introduction = [
@@ -26,12 +24,19 @@ export const HomeIntro = () => {
   return (
     <>
       <SubText contents="ホームページ" />
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-evenly",
+          height: "40vh",
+          margin: "60px",
+        }}
+      >
         <div
           style={{
             display: "flex",
             justifyContent: "left",
-            maxWidth: "50vw",
+            maxWidth: "40vw",
             overflowX: "scroll",
           }}
         >
@@ -46,7 +51,6 @@ export const HomeIntro = () => {
             flexDirection: "column",
             justifyContent: "space-evenly",
             maxWidth: "30vw",
-            height: "50vh",
           }}
         >
           {introduction.map((text, index) => {
