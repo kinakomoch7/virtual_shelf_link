@@ -13,7 +13,7 @@ const ProjectReport = () => {
 		<>
 			<div style={styles.subHead}>Project Report</div>
 			<ExternalPageTransition
-				url="public/dc2023_02.pdf"
+				url="/dc2023_02.pdf"
 				contents="Project Report"
 			/>
 		</>
