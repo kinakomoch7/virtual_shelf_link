@@ -1,33 +1,16 @@
-import { HeadText } from "./HeadText";
-import { HomeIntro } from "./HomeIntro/HomeIntro";
 
-const KawarbeSpecial = () => {
 
+export const AddIntro = () => {
+
+  const AddImgStyles = {
+    width: "40%",
+    height: '50%',
+    style: { margin: "20px" },
+  }
 
   return (
     <>
-      <HeadText style={{margin:30}} contents='使用方法' />
-
-      <HomeIntro />
-
-      <h2>リストページ</h2>
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <img
-          src="/IMG_2714.PNG"
-          width="15%"
-          height="15%"
-          style={{ margin: "30px" }}
-        />
-      </div>
-      <div>リストページでは、現在所持している本のリストを表示します。</div>
-      <div>
-        本棚ごとに本を表示しているため、どこの本棚に本が入っているのか、わかりやすくなっています。
-      </div>
-      <div>
-        ストックとは、どこの本棚にも本が入っていないものを指しています。
-      </div>
-      <div>画面右下のボタンを押すと本を追加することができます</div>
-      <h2>追加ページ</h2>
+      <SubText contents ='追加ページ' />
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img
           src="/IMG_2709.PNG"
@@ -60,7 +43,5 @@ const KawarbeSpecial = () => {
         これら三つの方法で追加した本はリストページのストック欄に追加されます。
       </div>
     </>
-  );
-};
-
-export default KawarbeSpecial;
+  )
+}
