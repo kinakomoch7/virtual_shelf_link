@@ -1,5 +1,6 @@
 import { Layout } from "antd";
 import HeaderPage from "./components/header";
+import KawarbeSpecial from "./components/kawarbeSpecial";
 import {
 	ProjectReport,
 	GithubRepogitory,
@@ -17,6 +18,7 @@ function App() {
 			</Header>
 			<Content>
 				<h1>Content</h1>
+        <KawarbeSpecial />
 				<ProjectReport />
 				<GithubRepogitory />
 				<WebSite />
