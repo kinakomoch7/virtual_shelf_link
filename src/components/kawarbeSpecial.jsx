@@ -26,8 +26,8 @@ const KawarbeSpecial = () => {
         <div style={{ display: "flex", justifyContent: "space-evenly" }}>
           <img
             src="/IMG_2714.PNG"
-            width="15%"
-            height="15%"
+            width="13%"
+            height="13%"
             style={{ margin: "30px" }}
           />
           <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-evenly", maxWidth:'30vw', height:'50vh'}}>
