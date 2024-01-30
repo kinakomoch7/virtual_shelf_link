@@ -5,31 +5,31 @@ const KawarbeSpecial = () => {
       <h2>ホームページ</h2>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img
-          src="public/IMG_2705.PNG"
+          src="/IMG_2705.PNG"
           width="15%"
           height="15%"
           style={{ margin: "30px" }}
         />
         <img
-          src="public/IMG_2706.PNG"
+          src="/IMG_2706.PNG"
           width="15%"
           height="15%"
           style={{ margin: "30px" }}
         />
         <img
-          src="public/IMG_2707.PNG"
+          src="/IMG_2707.PNG"
           width="15%"
           height="15%"
           style={{ margin: "30px" }}
         />
         <img
-          src="public/IMG_2715.PNG"
+          src="/IMG_2715.PNG"
           width="15%"
           height="15%"
           style={{ margin: "30px" }}
         />
         <img
-          src="public/IMG_2716.PNG"
+          src="/IMG_2716.PNG"
           width="15%"
           height="15%"
           style={{ margin: "30px" }}
@@ -52,7 +52,7 @@ const KawarbeSpecial = () => {
       <h2>リストページ</h2>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img
-          src="public/IMG_2714.PNG"
+          src="/IMG_2714.PNG"
           width="15%"
           height="15%"
           style={{ margin: "30px" }}
@@ -69,19 +69,19 @@ const KawarbeSpecial = () => {
       <h2>追加ページ</h2>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img
-          src="public/IMG_2709.PNG"
+          src="/IMG_2709.PNG"
           width="15%"
           height="15%"
           style={{ margin: "30px" }}
         />
         <img
-          src="public/IMG_2710.PNG"
+          src="/IMG_2710.PNG"
           width="15%"
           height="15%"
           style={{ margin: "30px" }}
         />
         <img
-          src="public/IMG_2713.PNG"
+          src="/IMG_2713.PNG"
           width="15%"
           height="15%"
           style={{ margin: "30px" }}
