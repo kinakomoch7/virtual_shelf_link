@@ -8,14 +8,12 @@ import {
 } from "./components/Ultra_Ishi_eenn";
 import YouTubePage from "./components/YouTubePage";
 
-const { Header, Content, Footer } = Layout;
+const { Content, Footer } = Layout;
 
 function App() {
 	return (
 		<Layout>
-			<Header>
-				<HeaderPage />
-			</Header>
+			<HeaderPage />
 			<Content>
 				<h1>Content</h1>
         <KawarbeSpecial />

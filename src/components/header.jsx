@@ -1,8 +1,10 @@
+import { Layout } from "antd";
+
 const HeaderPage = () => {
 	return (
-		<>
-			<h1>Header</h1>
-		</>
+		<Layout.Header>
+			<div style={{ color: 'white', fontSize: 40}}>Header</div>
+		</Layout.Header>
 	);
 };
 
