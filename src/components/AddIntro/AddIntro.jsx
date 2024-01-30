@@ -24,8 +24,9 @@ export const AddIntro = () => {
 
   return (
     <>
+      <div style={{ height:'5vh' }} />
       <SubText contents='追加ページ' />
-      <div style={{ display: "flex", justifyContent: "space-evenly"}}>
+      <div style={{ display: "flex", justifyContent: "space-evenly", height:'70vh'}}>
         <div style={{ display: "flex", maxWidth:'50vw', overflowX:'scroll' }}>
           {AddImges.map((img, index) => {
             return <img src={img} key={index} {...AddImgStyles} />
